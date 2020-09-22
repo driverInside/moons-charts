@@ -1,0 +1,45 @@
+.cardContainer {
+    padding: 10px;
+    place-items: start;
+    border: 1px solid #ddd;
+    border-bottom: 2px solid #ddd;
+
+    .cardFooter {
+        font-size: 0.9rem;
+
+        h4 {
+            font-weight: 600;
+            line-height: 1.8rem;
+        }
+
+        .percentage {
+            font-weight: 600;
+            color: #999;
+            margin-right: 20px;
+        }
+
+        .quantity {
+            color: #666;
+        }
+
+        .left {
+            padding-right: 5px;
+        }
+
+        .right {
+            text-align: right;
+        }
+    }
+}
+
+.green {
+    color: limegreen;
+}
+
+.blue {
+    color: #0df;
+}
+
+.orange {
+    color: orange;
+}

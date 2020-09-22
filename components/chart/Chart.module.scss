@@ -1,0 +1,27 @@
+.chartContainer {
+    background-color: palegreen;
+}
+
+.chartText {
+    font: 16px/1.4em 'Montserrat', Arial, sans-serif;
+    fill: #000;
+    transform: translateY(0.25em);
+
+    .chartTitle {
+        line-height: 1;
+        font-size: 0.275em;
+        text-anchor: middle;
+        text-transform: uppercase;
+        transform: translateY(-2.5em);
+    }
+    .chartTotal {
+        font-size: 0.4em;
+        text-anchor: middle;
+        transform: translateY(-0.5em);
+    }
+
+}
+
+.green {
+    opacity: 0.5;
+}

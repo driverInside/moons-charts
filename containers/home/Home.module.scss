@@ -1,0 +1,10 @@
+.home {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+
+    & > div {
+        width: 100%;
+        padding: 0 30px;
+    }
+}
